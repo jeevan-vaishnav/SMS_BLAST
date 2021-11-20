@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type Message!"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginVertical="20dp"
+        android:ems="10"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Phone no"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginVertical="10dp"
+            android:ems="10"
+            android:maxLength="10"
+            android:gravity="center"/>
+
+
+        <android.widget.Button
+            android:id="@+id/choose_contactall"
+            android:background="#fff221"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:text="Choose Contact List"
+            android:layout_marginVertical="10dp"/>
+
+
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="count"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginVertical="10dp"
+        android:ems="10"
+        android:maxLength="10"
+        android:gravity="center"/>
+
+    <android.widget.Button
+        android:id="@+id/sms_manually"
+        android:background="#fff221"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:text="SEND SMS MANUALLY"
+        android:layout_marginVertical="10dp"/>
+
+    <android.widget.Button
+        android:id="@+id/sms_send"
+        android:background="#fff221"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:text="SEND SMS"
+        android:layout_marginVertical="10dp"/>
+
+    <android.widget.Button
+        android:id="@+id/sms_send_whatsapp"
+        android:background="#fff221"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:text="SMS SEND WHATSAPP "
+        android:layout_marginVertical="10dp"/>
+
+
+
+</LinearLayout>
